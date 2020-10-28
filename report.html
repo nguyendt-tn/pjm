@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/datapicker.css">
+    </head>
+    <body>
+        <section id="header" class="between">
+            <div class="logo start">
+                <a href="index.html"><img src="images/logo.jpg" alt="" srcset="" /></a>
+                <a href="index.html"><h1 class="hrs">UEF Service Learning</h1></a>
+            </div>
+            <div class="wrapper">
+                <div class="navbar">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <a href="#"> <i class="fas fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fas fa-bell"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <p>Nguyễn Văn A</p>
+                                    <img src="images/user.png" width="40" /><i
+                                        class="fas fa-angle-down"
+                                    ></i>
+                                </a>
+
+                                <div class="dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#"
+                                                ><i class="fas fa-user"></i>
+                                                Profile</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><i
+                                                    class="fas fa-sliders-h"
+                                                ></i>
+                                                Settings</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><i
+                                                    class="fas fa-sign-out-alt"
+                                                ></i>
+                                                Signout</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="name between">
+                <h1 style="margin-left: 1rem">Danh sách dự án</h1>
+                <div class="create center">
+                    <button id="reload" class="rl center sprs">
+                        <i style="margin-right: 0.15rem" class="fas fa-sync"></i
+                        >Tải lại
+                    </button>
+                    <input
+                        class="rd center"
+                        type="text"
+                        name="date-range"
+                        id="date-check"
+                        value="01/01/2020 - 02/01/2020"
+                    />
+                    <label class="rb center" for="date-check"
+                        ><i class="far fa-calendar-alt"></i
+                    ></label>
+                    <button class="ra center sprs" id="newpj">
+                        <i class="fas fa-print" style="margin-right: .5rem;"></i>
+                        In
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <table>
+                    <tr>
+                        <td class="first"><span style="margin-left: .5rem;">#</span></td>
+                        <td>Tên dự án</td>
+                        <td>Loại dự án</td>
+                        <td>Người đại diện</td>
+                        <td>Trưởng dự án</td>
+                        <td>Trạng thái</td>
+                        <td>Ngày bắt đầu</td>
+                        <td>Hình ảnh</td>
+                        <td>File Đính Kèm</td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">1</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="success center">Đã Hoàn Thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">2</span>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="error center">Chưa hoàn thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">3</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="error center">Chưa hoàn thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">3</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="success center">Đã Hoàn Thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">4</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="success center">Đã Hoàn Thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">4</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="error center">Chưa Hoàn Thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                    <tr>
+                        <th class="first">
+                            <span style="margin-left: .5rem;">4</span>
+                        </th>
+                        <th class="pj sprs">Dự án châu á Thái bình dương</th>
+                        <th>Có chi phí</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>Nguyễn Văn A</th>
+                        <th>
+                            <span class="error center">Chưa Hoàn Thành</span>
+                        </th>
+                        <th>1/1/2020</th>
+                        <th>
+                            <img src="images/logo.jpg" alt="" srcset="" />
+                            <img src="images/user.png" alt="" srcset="" />
+                        </th>
+                        <td><a href="">123.doc</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/datapicker.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
