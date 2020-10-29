@@ -62,14 +62,7 @@ button {
 .sprs{
   font-size: 1.1rem;
 }
-@media screen and (max-width: 800px) {
-  .hrs{
-    font: 1.25rem;
-  }
-  .sprs{
-    font-size: .75rem;
-  }
-}
+
 
 #header{
   width: 100%;
@@ -273,6 +266,8 @@ button {
   display: flex;
   justify-content: flex-end;
   padding: 5px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: .4rem;
 }
 
 .pagination a {
@@ -367,4 +362,39 @@ button {
   width: 80px;
   height: 40px;
   background: #1abc9c;
+}
+
+@media screen and (max-width: 800px) {
+  .hrs{
+    font-size: 1.25rem;
+  }
+  .sprs{
+    font-size: .75rem;
+  }
+  #header h1{
+    display: none;
+  }
+  .wrapper{
+    margin-right: 1rem;
+  }
+  .wrapper .navbar{
+    padding: 0;
+    width: 100%;
+  }
+  #project .name h1{
+    display: none;
+  }
+  #project .name .create{
+    width: 100%;
+    margin-left: .5rem;
+  }
+  #project .sort{
+    justify-content: flex-end;
+  }
+  #project .sort .flt{
+    display: none;
+  }
+  #project .sort div .export{
+    margin-right: .5rem;
+  }
 }
