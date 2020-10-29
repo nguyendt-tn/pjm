@@ -399,8 +399,10 @@ button {
   .box table{
     width: 1200px;
   }
+  #project .name .create .ra{
+    font-size: .7rem;
+  }
   #project .name .create .rl,
-  #project .name .create .ra,
   .wrapper .navbar .right a p {
     font-size: .8rem;
   }
