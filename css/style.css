@@ -372,6 +372,9 @@ button {
   #header h1{
     display: none;
   }
+  .modal .new-pj{
+    width: 100%;
+  }
   .wrapper{
     margin-right: 1rem;
   }
