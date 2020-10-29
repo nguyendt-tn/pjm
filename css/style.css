@@ -374,6 +374,7 @@ button {
   }
   .modal .new-pj{
     width: 100%;
+    margin: 15% 0 0 0;
   }
   .wrapper{
     margin-right: 1rem;
