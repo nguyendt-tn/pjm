@@ -60,7 +60,7 @@ button {
   font-size: 1.5rem;
 }
 .sprs{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 
@@ -369,7 +369,7 @@ button {
     font-size: 1.25rem;
   }
   .sprs{
-    font-size: .75rem;
+    font-size: 1rem;
   }
   #header h1{
     display: none;
@@ -396,5 +396,12 @@ button {
   }
   #project .sort div .export{
     margin-right: .5rem;
+  }
+  .box table{
+    width: 1200px;
+  }
+  #project .name .create .rl,
+  #project .name .create .ra{
+    font-size: .8rem;
   }
 }
