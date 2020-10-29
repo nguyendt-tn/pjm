@@ -380,6 +380,7 @@ button {
   .wrapper .navbar{
     padding: 0;
     width: 100%;
+    font-size: .8rem;
   }
   #project .name h1{
     display: none;
@@ -401,7 +402,8 @@ button {
     width: 1200px;
   }
   #project .name .create .rl,
-  #project .name .create .ra{
+  #project .name .create .ra,
+  .wrapper .navbar .right a p {
     font-size: .8rem;
   }
 }
